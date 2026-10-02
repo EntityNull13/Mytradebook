@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-zinc-50: var(--zinc-50);
+  --color-zinc-100: var(--zinc-100);
+  --color-zinc-200: var(--zinc-200);
+  --color-zinc-300: var(--zinc-300);
+  --color-zinc-400: var(--zinc-400);
+  --color-zinc-500: var(--zinc-500);
+  --color-zinc-600: var(--zinc-600);
+  --color-zinc-700: var(--zinc-700);
+  --color-zinc-800: var(--zinc-800);
+  --color-zinc-850: var(--zinc-850);
+  --color-zinc-900: var(--zinc-900);
+  --color-zinc-950: var(--zinc-950);
+}
+
+:root {
+  /* Day / Light mode colors */
+  --zinc-50: #0f172a;
+  --zinc-100: #0f172a;
+  --zinc-200: #1e293b;
+  --zinc-300: #334155;
+  --zinc-400: #64748b;
+  --zinc-500: #94a3b8;
+  --zinc-600: #cbd5e1;
+  --zinc-700: #e2e8f0;
+  --zinc-800: #e2e8f0;
+  --zinc-850: #f1f5f9;
+  --zinc-900: #ffffff;
+  --zinc-950: #f8fafc;
+  color-scheme: light;
+}
+
+html.dark,
+:root[data-theme="dark"],
+body.dark {
+  /* Night / Dark mode colors */
+  --zinc-50: #fafafa;
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-300: #d4d4d8;
+  --zinc-400: #a1a1aa;
+  --zinc-500: #71717a;
+  --zinc-600: #52525b;
+  --zinc-700: #3f3f46;
+  --zinc-800: #27272a;
+  --zinc-850: #1e1e24;
+  --zinc-900: #18181b;
+  --zinc-950: #09090b;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--zinc-950);
+  color: var(--zinc-100);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+

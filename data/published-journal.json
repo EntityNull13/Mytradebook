@@ -1,0 +1,28 @@
+{
+  "id": "pub_1790952485725",
+  "isPublished": false,
+  "publishedAt": "2026-10-02T14:48:05.725Z",
+  "updatedAt": "2026-10-02T14:48:14.836Z",
+  "journalName": "Test Journal",
+  "bio": "Testing publication endpoint",
+  "showBalances": true,
+  "showPositionSizes": false,
+  "includeReviews": true,
+  "accounts": [],
+  "plans": [],
+  "trades": [],
+  "analytics": {
+    "totalTrades": 0,
+    "winningTrades": 0,
+    "losingTrades": 0,
+    "bepTrades": 0,
+    "winRate": 0,
+    "netPnL": 0,
+    "profitFactor": 0,
+    "averageWin": 0,
+    "averageLoss": 0,
+    "expectancy": 0,
+    "averageR": 0,
+    "maxDrawdown": 0
+  }
+}

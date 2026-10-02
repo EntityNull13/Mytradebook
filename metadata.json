@@ -1,0 +1,6 @@
+{
+  "name": "Tradebook",
+  "description": "Private Trading Journal & Performance Tracker. Local-first, privacy-focused trading journal with encrypted portable backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
